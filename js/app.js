@@ -79,7 +79,31 @@ console.log(crazyObject['larry']['nicknames'][1]);
 
 // 5. The object the contains the name 'funkhauser' // 
 console.log(crazyObject['larry']['characters'][1]['name']);
+/////// CRAZY OBJECT //////////
 
+///////// COMMIT #3 ///////// 
+
+////////// OBJECT-CEPTION ///////////// 
+const inception = {
+   reality: {
+       dreamLayer1: {
+           dreamLayer2: {
+               dreamLayer3: {
+                   dreamLayer4: {
+                       dreamLayer5: {
+                           dreamLayer6: {
+                               limbo: "Joseph Gordon Levitt"
+                          }
+                       }
+                   }
+               }
+           }
+       }
+   }
+}
+
+
+console.log(inception['limbo'] = 'null');
 
 
 
