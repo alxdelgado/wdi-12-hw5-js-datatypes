@@ -142,6 +142,16 @@ for (let i = 0; i < bondFilms.length; i++){
   console.log(bondFilms[i]['title']);
 }
 
+///////// COMMIT #5 /////// 
+
+for (let i = 0; i <bondFilms.length; i++){
+  if (i % 2 === 0){
+    console.log(bondFilms[i]); 
+  }
+}
+
+///// COMMIT #6 ////// 
+
 
 
 
